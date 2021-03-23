@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <title>Hello, AMPs</title>
-    <link rel="canonical" href="https://www.nmk365.com/">
+    <title>Hello, AMPs｜なまけにっき</title>
+    <link rel="canonical" href="https://www.nmk365.com/index.html">
     <meta name="viewport" content="width=device-width">
     <script type="application/ld+json">
       {
@@ -12,6 +12,7 @@
         "@type": "NewsArticle",
         "headline": "Open-source framework for publishing content",
         "datePublished": "2015-10-07T12:02:41Z",
+        "dateModified": "2021-03-23T00:31:00Z",
         "image": [
           "logo.jpg"
         ]
@@ -21,24 +22,19 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   </head>
   <body>
-<amp-analytics type="googleanalytics">
-  <script type="application/json">
-    {
-      "vars": {
-        "account": "G-20P6BN284R"
-      },
-      "triggers": {
-        "default pageview": {
-          "on": "visible",
-          "request": "pageview",
-          "vars": {
-            "title": "{{title}}"
-          }
-        }
-      }
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "G-20P6BN284R",
+    "config" : {
+      "G-20P6BN284R": { "groups": "default" }
     }
-  </script>
+  }
+}
+</script>
 </amp-analytics>
+
     <h1>Welcome to the mobile web</h1>
   </body>
 </html>
