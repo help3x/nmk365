@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html amp lang="ja">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>怠日記 - カメラ・写真・アクアリウムを趣味とするナマケモノの日記</title>
     <link rel="canonical" href="https://www.nmk365.com/index.html">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -19,8 +18,7 @@
       }
     </script>
     <link rel="shortcut icon" href="https://www.nmk365.com/assets/img/favicon.ico">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <style amp-custom>
+    <style>
       html {
         box-sizing: border-box;
       }
@@ -29,22 +27,26 @@
       *::after {
         box-sizing: inherit;
       }
+      body {
+        margin: 0;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+
+
+      html,
+      body,
+      body > div {
+        height: 100%;
+      }
       body > div {
         display: flex;
+        flex-direction: column;
       }
       body > div > div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
-        width: 100%;
-      }
-      body > div > div > header,
-      body > div > div > div,
-      body > div > div > footer {
-        width: 100%;
-      }
-      body > div > div > div {
         flex: 1 0 auto;
       }
       [itemprop="publisher"] {
@@ -58,42 +60,40 @@
         width: 96px;
       }
     </style>
-    <!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   </head>
   <body>
     <!-- Google Tag Manager -->
-    <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PFNQX6B&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+    <!-- <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PFNQX6B&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics> -->
     <div>
-      <div>
-        <!-- Global Header -->
-        <header>
-          <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
-            <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
-              <a href="https://www.nmk365.com/">
-                <amp-img
-                  alt="怠日記のロゴ画像"
-                  src="https://www.nmk365.com/assets/img/optimized-logo.png"
-                  width="160"
-                  height="60"
-                  layout="intrinsic">
-                </amp-img>
-              </a>
-              <meta itemprop="url" content="https://www.nmk365.com/assets/img/optimized-logo.png">
-            </div>
-            <meta itemprop="name" content="kito">
+      <!-- Global Header -->
+      <header>
+        <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+          <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+            <a href="https://www.nmk365.com/">
+              <img
+                alt="怠日記のロゴ画像"
+                src="https://www.nmk365.com/assets/img/optimized-logo.png"
+                width="160"
+                height="60">
+            </a>
+            <meta itemprop="url" content="https://www.nmk365.com/assets/img/optimized-logo.png">
           </div>
-        </header>
-        <!-- Contents -->
-        <div>
-          <h1>Welcome to the mobile web</h1>
+          <meta itemprop="name" content="kito">
         </div>
-        <!-- Global Footer -->
-        <footer>
-          <div>
-            <div>&copy; 2021 怠日記</div>
-          </div>
-        </footer>
+      </header>
+      <!-- Contents -->
+      <div>
+        <main>
+          <h1>Welcome to the mobile web</h1>
+        </main>
+        <aside></aside>
       </div>
+      <!-- Global Footer -->
+      <footer>
+        <div>
+          <div>&copy; 2021 怠日記</div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
